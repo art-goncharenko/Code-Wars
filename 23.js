@@ -4,19 +4,14 @@
 //
 
 
-function getVolumeOfCuboid(length, width, height) {
-    return length * width * height
+class Cuboid {
+    static getVolumeOfCuboid(length, width, height) {
+        return length * width * height
+    }
 }
 
-
-function getVolumeOfCuboid (length, width, height) {
-    return length * width * height
-}
+// function getVolumeOfCuboid(length, width, height) {
+//     return length * width * height
+// }
 
 // console.log(getVolumeOfCuboid(1,2,2))
-
-//make the same but with class and constructor
-
-function getVolume() {
-    return this.length * this.width * this.height
-}
