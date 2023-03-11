@@ -2,7 +2,7 @@
 //
 //     For example:[1, 2, 3] --> [2, 4, 6]
 
-function maps(x){
+function maps(x) {
     let newX = []
     for (let i = 0; i < x.length; i++) {
         newX.push(x[i] * 2)
@@ -10,4 +10,4 @@ function maps(x){
     return newX
 }
 
-console.log(maps([1,2,4]))
+console.log(maps([1, 2, 4]))
