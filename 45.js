@@ -12,4 +12,4 @@ function findShort(s) {
     return shortest.length
 }
 
-console.log(findShort("we know you s are here"))
+console.log(findShort("Everyone will know you are here"))
