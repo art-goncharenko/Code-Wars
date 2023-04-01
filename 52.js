@@ -16,3 +16,9 @@ function fakeBin(x) {
 }
 
 console.log(fakeBin(2423))
+
+
+//solution 2
+// function fakeBin(x) {
+//     return x.split('').map(n => n < 5 ? 0 : 1).join('');
+// }
